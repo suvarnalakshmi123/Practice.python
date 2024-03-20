@@ -9,12 +9,9 @@ prints "No, I want a big Spathiphyllum!" if the inputted string is "spathiphyllu
 prints "Spathiphyllum! Not [input]!" otherwise. Note: [input] is the string taken as input.
 Test your code using the data we've provided for you. And get yourself a Spathiphyllum, too!
 
-plant=input()
+plant=input("Enter the name of a plant: ")
 if plant=="spathiphyllum":
    print("No, I want a big Spathiphyllum!")
-elif plant=="pelargonium":
-   print("Spathiphyllum! Not pelargonium!")
-elif plant=="Spathiphyllum":
+elif  plant=="Spathiphyllum":
    print("Yes - Spathiphyllum is the best plant ever!")
 else : print("Spathiphyllum! Not",plant)
-   
